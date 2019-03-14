@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import githubIcon from '../images/github-original.svg';
 import twitterIcon from '../images/twitter-circle.svg';
 import linkedinIcon from '../images/linkedin-circle.svg';
+import emailIcon from '../images/email.svg';
 
 import Header from './header';
 
@@ -55,6 +56,11 @@ function Layout({ children }) {
                     alt="github"
                     style={{ height: '3em' }}
                   />
+                </a>
+                <a
+                  href="mailto:steven.thomson88@gmail.com"
+                >
+                  <img src={emailIcon} alt="github" style={{ height: '3em' }} />
                 </a>
               </p>
             </div>
