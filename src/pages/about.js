@@ -83,9 +83,9 @@ function AboutPage() {
           </p>
           <div className="skills-box">
             <h2 className="pt-12">Skills</h2>
-            <div className="skill-list">
+            <div className="primary-skill-list">
               <h3>Very Familiar With:</h3>
-              <ul className="daily-list">
+              <ul className="familiar-list">
                 <li>
                   <img src={htmlIcon} alt="html" style={{ height: '55px' }} />
                   <p>HTML</p>
@@ -200,7 +200,7 @@ function AboutPage() {
                 </li>
               </ul>
             </div>
-            <div className="skills-i-know">
+            <div className="skills-comfortable">
               <h3 className="pt-12">Comfortable With:</h3>
               <ul className="secondary-skills">
                 {skills.map(skill => (

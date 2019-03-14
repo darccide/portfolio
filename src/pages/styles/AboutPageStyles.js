@@ -85,7 +85,7 @@ const AboutPageStyles = styled.div`
       list-style-type: none;
       padding: 0;
     }
-    .daily-list {
+    .familiar-list {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr 1fr;
@@ -127,7 +127,7 @@ const AboutPageStyles = styled.div`
     }
     .skills-to-learn {
       p {
-        text-align: center;
+        text-align: justify;
         padding: 3px;
       }
     }

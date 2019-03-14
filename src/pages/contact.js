@@ -10,7 +10,7 @@ function ContactPage() {
 
       <form className="mx-auto w-3/4 text-justify">
         <h1 className="text-center mb-4">Contact</h1>
-        <p className="leading-normal mb-8">
+        <p className="text-xl leading-normal mb-8">
           If you would like to work together or have any questions, please fill
           in the fields and submit. I look forward to hearing from you.
         </p>
