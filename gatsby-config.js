@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
+    title: `Steven Thomson | Full Stack Developer`,
     description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    author: `@taylorbryant`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,17 +14,17 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
-        display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
-      },
+        display: `minimal-ui`
+      }
     },
     `gatsby-plugin-postcss`,
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
         tailwind: true,
-        purgeOnly: ['src/css/style.css'],
-      },
+        purgeOnly: ['src/css/style.css']
+      }
     },
-  ],
-}
+    `gatsby-plugin-styled-components`
+  ]
+};
