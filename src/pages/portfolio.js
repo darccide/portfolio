@@ -13,6 +13,7 @@ import jasmineIcon from '../images/jasmine-plain.svg';
 import reactIcon from '../images/react-original.svg';
 import graphqlIcon from '../images/graphql.svg';
 import herokuIcon from '../images/heroku-plain.svg';
+import sequelizeIcon from '../images/sequelize-plain.svg';
 
 import bmartImage from '../images/bmart.svg';
 import quikiImage from '../images/quicki-wiki.svg';
@@ -133,19 +134,19 @@ function PortfolioPage() {
                     style={{ height: '2em' }}
                   />
                   <img
-                    alt="heroku deploy"
+                    alt="nodejs"
                     className="block rounded-full"
                     src={nodejsIcon}
                     style={{ height: '2em' }}
                   />
                   <img
-                    alt="heroku deploy"
+                    alt="Sequelize ORM"
                     className="block rounded-full"
-                    src={postgresqlIcon}
+                    src={sequelizeIcon}
                     style={{ height: '2em' }}
                   />
                   <img
-                    alt="heroku deploy"
+                    alt="jasmine"
                     className="block rounded-full"
                     src={jasmineIcon}
                     style={{ height: '2em' }}
@@ -207,9 +208,9 @@ function PortfolioPage() {
                     style={{ height: '2em' }}
                   />
                   <img
-                    alt="postgresql"
+                    alt="sequelize"
                     className="block rounded-full"
-                    src={postgresqlIcon}
+                    src={sequelizeIcon}
                     style={{ height: '2em' }}
                   />
                   <img
