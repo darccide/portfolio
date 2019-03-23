@@ -358,7 +358,7 @@ function PortfolioPage() {
                     className="no-underline hover:underline text-black"
                     href="https://github.com/darccide/bloc-jams"
                   >
-                    Just Jams
+                    Bloc Jams
                   </a>
                 </h1>
               </header>
