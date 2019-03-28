@@ -19,7 +19,7 @@ import bmartImage from '../images/bmart.svg';
 import quikiImage from '../images/quicki-wiki.svg';
 import beenredImage from '../images/beenred.svg';
 import shopperImage from '../images/smartshopper.svg';
-import conwayImage from '../images/gameoflife.svg';
+import blocChatImage from '../images/bloc-chat.svg';
 import jamsImage from '../images/justjams.svg';
 
 function PortfolioPage() {
@@ -288,11 +288,11 @@ function PortfolioPage() {
 
           <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 pb-8">
             <article className="overflow-hidden rounded-lg shadow-lg">
-              <a href="https://github.com/darccide/ConwayGameOfLife">
+              <a href="https://bloc-chat-react-on.netlify.com/">
                 <img
-                  alt="Game of Live"
+                  alt="Bloc Chat"
                   className="block h-auto w-full"
-                  src={conwayImage}
+                  src={blocChatImage}
                   style={{ height: '8em' }}
                 />
               </a>
@@ -301,9 +301,9 @@ function PortfolioPage() {
                 <h1 className="text-lg">
                   <a
                     className="no-underline hover:underline text-black"
-                    href="https://github.com/darccide/ConwayGameOfLife"
+                    href="https://github.com/darccide/bloc-chat-react"
                   >
-                    Conway's Game of Life
+                    Bloc Chat
                   </a>
                 </h1>
               </header>
