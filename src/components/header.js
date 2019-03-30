@@ -52,6 +52,13 @@ function Header({ siteTitle }) {
             >
               Portfolio
             </Link>
+
+            <Link
+              to="/contacts"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline text-white"
+            >
+              Contacts
+            </Link>
           </div>
         </div>
       </div>

@@ -1,51 +1,6 @@
 import styled from 'styled-components';
 
 const AboutPageStyles = styled.div`
-  width: 100%;
-  display: grid;
-  grid-template-columns: 2fr 5fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: center;
-  padding: 40px 30px;
-  @media (max-width: 900px) {
-    width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr minmax(500px, 3fr);
-    padding: 10px;
-  }
-  @media (max-width: 450px) {
-    grid-template-rows: 1fr minmax(500px, 5fr);
-  }
-  .about-sidebar {
-    width: 100%;
-    align-self: start;
-    @media (max-width: 900px) {
-      align-self: center;
-    }
-    img {
-      border-radius: 50%;
-      width: 150px;
-      margin-left: calc(50% - 75px);
-    }
-    .sidebar-links {
-      a {
-        font-size: 1.5rem;
-        display: block;
-        padding: 20px 0;
-        width: 60%;
-        margin-left: 20%;
-        @media (max-width: 900px) {
-          text-align: center;
-        }
-      }
-    }
-    h1 {
-      @media (min-width: 900px) {
-        display: none;
-      }
-    }
-  }
   .about-main {
     width: 100%;
     padding-bottom: 50px;
@@ -60,11 +15,6 @@ const AboutPageStyles = styled.div`
     h3,
     li {
       text-align: center;
-    }
-    h1 {
-      @media (max-width: 900px) {
-        display: none;
-      }
     }
     p {
       font-size: 1.3rem;
@@ -135,7 +85,6 @@ const AboutPageStyles = styled.div`
   h1 {
     text-align: center;
     font-size: 2rem;
-    text-transform: uppercase;
   }
 `;
 

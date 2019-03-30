@@ -26,16 +26,8 @@ function AboutPage() {
     <Layout>
       <SEO title="About" />
       <AboutPageStyles>
-        <div className="about-sidebar">
-          <h1>Steven Thomson</h1>
-          <img
-            src="https://res.cloudinary.com/ddhlidgdf/image/upload/v1552349798/1546359638757.jpg"
-            alt="Steven Thomson Profile"
-          />
-        </div>
         <div className="about-main">
-          <h1>Steven Thomson</h1>
-          <h2>About Me</h2>
+          <h1 className="text-center pb-8">About Me</h1>
           <p>
             I am a full stack web developer who enjoys creating clean, useful
             code. I have been in the education industry in South Korea for the
@@ -82,7 +74,7 @@ function AboutPage() {
             are no restriction. Get in touch and let's work together!
           </p>
           <div className="skills-box">
-            <h2 className="pt-12">Skills</h2>
+            <h2 className="pt-16">Skills</h2>
             <div className="primary-skill-list">
               <h3>Very Familiar With:</h3>
               <ul className="familiar-list">
@@ -201,18 +193,19 @@ function AboutPage() {
               </ul>
             </div>
             <div className="skills-comfortable">
-              <h3 className="pt-12">Comfortable With:</h3>
+              <h3 className="pt-16">Comfortable With:</h3>
               <ul className="secondary-skills">
                 {skills.map(skill => (
                   <li>{skill}</li>
                 ))}
               </ul>
             </div>
-            <h3>Skills On the Horizon:</h3>
             <div className="skills-to-learn">
+              <h3 className="pt-2">Skills On the Horizon:</h3>
               <p>
-                I am looking to become much more proficient in Java, however I
-                welcome any challenge you would like to put my way.
+                I am looking to become much more proficient in Javascript and
+                want to start exploring python. However I welcome any challenge
+                you would like to put my way.
               </p>
             </div>
           </div>
