@@ -68,10 +68,9 @@ function AboutPage() {
           <p>
             I love learning and growing as a developer. I also am recently
             married and when I am not knee deep in code I enjoy spending time
-            with my wife, coffee, cooking, and sports. Current I am in the
-            process of relocating to Minneapolis (March, 2019). I am open to
-            work the United States, or remote positions right now. Time zones
-            are no restriction. Get in touch and let's work together!
+            with my wife, coffee, cooking, and sports. I just relocated back to
+            the United States and am open to positions in any location. Time
+            zones are no restriction. Get in touch and let's work together!
           </p>
           <div className="skills-box">
             <h2 className="pt-16">Skills</h2>
